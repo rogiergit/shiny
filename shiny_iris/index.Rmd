@@ -3,11 +3,11 @@ title       : Shiny Iris Presentation
 subtitle    : How to use the Iris Shiny App
 author      : Rogier Helmus
 job         : Datascientist?
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : html5slides        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : selfcontained # {selfcontained, standalone, draft}
 knit        : slidify::knit2slides
 ---
 
@@ -20,7 +20,10 @@ knit        : slidify::knit2slides
 --- .class #id 
 
 ## Slide 2
+ sliderInput("YearId", "Year:", value = c(2015), min = 1960, max = 2050, step=1, sep='')
+--- .class #id 
 
 
+## Slide 3
 
-
+--- .class #id 
