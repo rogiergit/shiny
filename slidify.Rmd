@@ -1,0 +1,18 @@
+---
+title: "Slidify"
+output: html_document
+---
+
+```{r}
+library(devtools)
+library(slidify)
+setwd("E:\\Dev\\R\\Coursera\\8 Machine\\shiny\\")
+author("shiny_iris")
+```
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
